@@ -2143,6 +2143,75 @@ input::-moz-focus-inner {
   /* margin-top: -5.2rem;*/
 }
 
+/* ------------------------------------------------------------------- 
+ * ## home2 content
+ * ------------------------------------------------------------------- */
+ .home2-content {
+  z-index: 4;
+  display: table-cell;
+  vertical-align: bottom;
+  padding-top: 24.8rem;
+  width: 100%;
+  position: relative;
+}
+
+.home2-content h1 {
+  font-family: "Chivo", sans-serif;
+  font-weight: 600;
+  font-size: 7.2rem;
+  line-height: 1.222;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 3.2rem;
+  position: relative;
+}
+
+.home2-content h1::before {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 8rem;
+  background-color: #67c5e9;
+  position: absolute;
+  left: 8px;
+  top: 0;
+}
+
+.home2-content h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 1.667;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.3);
+  margin-top: 2rem;
+  width: 85%;
+}
+
+.home2-content__main {
+  position: relative;
+  padding-bottom: 9.6rem;
+  max-width: 1300px;
+}
+
+.home2-content__right {
+  width: calc(100% - (580px + 80px));
+}
+
+.home2-content__left {
+  z-index: 500;
+  width: 580px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.home2-content__left img {
+  vertical-align: bottom;
+  /* margin-top: -5.2rem;*/
+}
+
 
 /* ------------------------------------------------------------------- 
  * ## home button section

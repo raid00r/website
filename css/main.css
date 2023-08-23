@@ -853,7 +853,7 @@ input[type="password"]:focus,
 textarea:focus,
 select:focus {
   color: #000000;
-  box-shadow: 0 0 5px rgba(91, 79, 150, 0.8);
+  box-shadow: 0 0 5px rgba(151, 222, 244, 0.8);
   border: 1px solid #67c5e9;
 }
 

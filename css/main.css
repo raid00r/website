@@ -2197,14 +2197,14 @@ input::-moz-focus-inner {
 
 .home2-content__right {
   width: calc(100% - (580px + 80px));
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .home2-content__left {
   z-index: 500;
   width: 580px;
-  position: absolute;
-  right: 0;
-  top: 0;
 }
 
 .home2-content__left img {

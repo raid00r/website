@@ -419,6 +419,11 @@ textarea {
   margin: 0 auto;
 }
 
+.welcome-row {
+  width: 89%;
+  margin: 0 auto;
+}
+
 .row:after {
   content: "";
   display: table;

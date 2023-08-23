@@ -4069,7 +4069,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-welcome {
-  padding-top: 18.4rem;
+  padding-top: 7rem;
   background-color: #000000;
   color: #67c5e9;
   overflow: hidden;
@@ -4082,7 +4082,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .welcome-text {
-  font-size: 10vmax;
+  font-size: 13.2vmax;
   font-family: "Nunito Sans", sans-serif;
 }
 

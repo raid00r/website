@@ -2203,7 +2203,7 @@ input::-moz-focus-inner {
   z-index: 500;
   width: 580px;
   position: absolute;
-  right: 0;
+  left: 0;
   top: 0;
 }
 

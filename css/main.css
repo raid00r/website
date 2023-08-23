@@ -4083,6 +4083,7 @@ html.no-csstransitions .home-content__main {
 
 .welcome-text {
   font-size: 10vmax;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .s-welcome p.lead {

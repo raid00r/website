@@ -39,9 +39,9 @@
  *    ## home social
  *    ## home scroll
  *    ## home animations
- *  # about
- *    ## about-desc slider
- *  # s-about-how
+ *  # core
+ *    ## core-desc slider
+ *  # s-core-how
  *    ## video button
  *    ## stats
  *    ## process
@@ -2635,99 +2635,99 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # about
+ * # core
  *
  * ------------------------------------------------------------------- */
-.s-about {
+.s-core {
   padding-top: 23.2rem;
   padding-bottom: calc((62.4rem/2) + 6.4rem);
-  background-color: #67c5e9;
+  background-color: #666666;
   color: rgba(255, 255, 255, 0.8);
   overflow: hidden;
   position: relative;
 }
 
-.s-about .section-header.has-bottom-sep::before {
+.s-core .section-header.has-bottom-sep::before {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.s-about .display-1,
-.s-about h3 {
+.s-core .display-1,
+.s-core h3 {
   color: #ffffff;
 }
 
-.s-about p.lead {
+.s-core p.lead {
   color: rgba(255, 255, 255, 0.6);
 }
 
 
 /* ------------------------------------------------------------------- 
- * ## about-desc slider
+ * ## core-desc slider
  * ------------------------------------------------------------------- */
-.about-desc {
+.core-desc {
   margin-top: 6rem;
 }
 
-.about-desc__slider .slick-dots {
+.core-desc__slider .slick-dots {
   margin: .8rem 0 0 0;
 }
 
-.about-desc__slider .slick-dots li button {
+.core-desc__slider .slick-dots li button {
   background: #433a6e;
 }
 
-.about-desc__slider .slick-dots li.slick-active button,
-.about-desc__slider .slick-dots li:hover button {
+.core-desc__slider .slick-dots li.slick-active button,
+.core-desc__slider .slick-dots li:hover button {
   background: #ffffff;
 }
 
-.about-desc__slide {
+.core-desc__slide {
   padding: 0 24px;
 }
 
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * about
+ * core
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1400px) {
-  .s-about {
+  .s-core {
     padding-bottom: calc((62.4rem/2) + 9.6rem);
   }
 
 }
 
 @media only screen and (max-width:1200px) {
-  .s-about {
+  .s-core {
     padding-top: 18.4rem;
   }
 
 }
 
 @media only screen and (max-width:1000px) {
-  .s-about {
+  .s-core {
     padding-top: 17.2rem;
   }
 
-  .about-desc__slide {
+  .core-desc__slide {
     padding: 0 20px;
   }
 
 }
 
 @media only screen and (max-width:800px) {
-  .s-about {
+  .s-core {
     padding-top: 16rem;
   }
 
 }
 
 @media only screen and (max-width:700px) {
-  .about-desc {
+  .core-desc {
     max-width: 550px;
   }
 
-  .about-desc__slide {
+  .core-desc__slide {
     padding: 0 10px;
     text-align: center;
   }
@@ -2735,30 +2735,30 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width:600px) {
-  .s-about {
+  .s-core {
     padding-top: 14.8rem;
     padding-bottom: calc((60rem/2) + 9.6rem);
   }
 
-  .about-desc {
+  .core-desc {
     max-width: 500px;
   }
 
-  .about-desc__slide {
+  .core-desc__slide {
     padding: 0;
   }
 
 }
 
 @media only screen and (max-width:500px) {
-  .s-about {
+  .s-core {
     padding-bottom: calc((52rem/2) + 9.6rem);
   }
 
 }
 
 @media only screen and (max-width:400px) {
-  .s-about {
+  .s-core {
     padding-top: 14rem;
     padding-bottom: calc((48rem/2) + 9.6rem);
   }
@@ -2768,10 +2768,10 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # s-about-how
+ * # s-core-how
  *
  * ------------------------------------------------------------------- */
-.s-about-how {
+.s-core-how {
   background-color: #ffffff;
   padding-bottom: 16rem;
 }
@@ -2951,7 +2951,7 @@ html.no-csstransitions .home-content__main {
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * about-how
+ * core-how
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1400px) {
   .process {
@@ -3080,7 +3080,7 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width:600px) {
-  .s-about-how {
+  .s-core-how {
     padding-bottom: 14.4rem;
   }
 
@@ -3114,7 +3114,7 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width:400px) {
-  .s-about-how {
+  .s-core-how {
     padding-bottom: 12rem;
   }
 

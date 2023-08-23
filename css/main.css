@@ -2702,6 +2702,298 @@ html.no-csstransitions .home-content__main {
 }
 
 
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * home2
+ * ------------------------------------------------------------------- */
+ @media only screen and (max-width:1700px) {
+  .home2-content h1 {
+    font-size: 6.8rem;
+  }
+
+  .home2-content h3 {
+    width: 100%;
+  }
+
+  .home2-content__main {
+    max-width: 1200px;
+  }
+
+}
+
+@media only screen and (max-width:1600px) {
+  .home2-scroll__text {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width:1500px) {
+  .home2-content {
+    padding-top: 23.2rem;
+  }
+
+  .home2-content h1 {
+    font-size: 6.2rem;
+  }
+
+  .home2-content h3 {
+    font-size: 2.2rem;
+  }
+
+  .home2-content__main {
+    max-width: 1140px;
+  }
+
+  .home2-content__left {
+    width: calc(100% - (570px + 60px));
+  }
+
+  .home2-content__right {
+    width: 570px;
+  }
+
+}
+
+@media only screen and (max-width:1400px) {
+  .home2-content h1 {
+    font-size: 6rem;
+  }
+
+  .home2-content h3 {
+    font-size: 2.1rem;
+    width: 90%;
+  }
+
+  .home2-content__left {
+    width: calc(100% - (550px + 80px));
+  }
+
+  .home2-content__right {
+    width: 550px;
+    right: 40px;
+  }
+
+}
+
+@media only screen and (max-width:1300px) {
+  .home2-content {
+    padding-top: 20rem;
+  }
+
+  .home2-content h1 {
+    font-size: 5.6rem;
+  }
+
+  .home2-content h3 {
+    font-size: 1.9rem;
+  }
+
+  .home2-content__left {
+    width: calc(100% - (530px + 90px));
+  }
+
+  .home2-content__right {
+    width: 530px;
+    right: 50px;
+  }
+
+}
+
+@media only screen and (max-width:1200px) {
+  .s-home {
+    display: block;
+    overflow: hidden;
+    min-height: 740px;
+  }
+
+  .home2-content {
+    display: block;
+  }
+
+  .home2-content br {
+    display: none;
+  }
+
+  .home2-content h1 {
+    font-size: 7.2rem;
+    padding-top: 0;
+  }
+
+  .home2-content h1::before {
+    display: none;
+  }
+
+  .home2-content h3 {
+    font-size: 2.4rem;
+    width: 100%;
+  }
+
+  .home2-content__main {
+    max-width: 600px;
+    padding-bottom: 44rem;
+    text-align: center;
+  }
+
+  .home2-content__right {
+    width: 100%;
+  }
+
+  .home2-content__left {
+    top: 100%;
+    right: auto;
+    left: 50%;
+    bottom: 0;
+    -webkit-transform: translate3d(-50%, 0, 0);
+    -ms-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+    margin-top: -40rem;
+  }
+
+  .home2-content__left img {
+    margin-top: 0;
+  }
+
+}
+
+@media only screen and (max-width:900px) {
+  .home2-content {
+    padding-top: 16.8rem;
+  }
+
+  .home2-content h1 {
+    font-size: 6.2rem;
+  }
+
+  .home2-content h3 {
+    font-size: 2.2rem;
+  }
+
+  .home2-content__main {
+    max-width: 500px;
+  }
+
+  .home2-content__social {
+    right: calc(30px + (5.6rem/2));
+  }
+
+  .home2-scroll {
+    right: 3rem;
+  }
+
+}
+
+@media only screen and (max-width:800px) {
+  .home2-content h1 {
+    font-size: 6rem;
+  }
+
+  .home2-content h3 {
+    font-size: 2.1rem;
+  }
+
+  .home2-content__right {
+    width: 480px;
+  }
+
+}
+
+@media only screen and (max-width:700px) {
+  .home2-content h1 {
+    font-size: 5.6rem;
+  }
+
+  .home2-content h3 {
+    font-size: 2rem;
+  }
+
+  .home2-content__social,
+  .home2-scroll {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width:600px) {
+  .home2-content h1 {
+    font-size: 5.2rem;
+  }
+
+  .home2-content h3 {
+    font-size: 1.8rem;
+  }
+
+  .home2-content__main {
+    padding-bottom: 40rem;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .home2-content__left {
+    width: 400px;
+    margin-top: -36rem;
+  }
+
+  .home2-content__btn-wrap {
+    margin-top: 4rem;
+  }
+
+}
+
+@media only screen and (max-width:500px) {
+  .home2-content {
+    padding-top: 16rem;
+  }
+
+  .home2-content h1 {
+    font-size: 4.4rem;
+  }
+
+  .home2-content__main {
+    padding-bottom: 32rem;
+  }
+
+  .home2-content__left {
+    width: 360px;
+    margin-top: -28rem;
+  }
+
+}
+
+@media only screen and (max-width:400px) {
+  .home2-content {
+    padding-top: 15.2rem;
+  }
+
+  .home2-content h1 {
+    font-size: 4.2rem;
+  }
+
+  .home2-content__main {
+    padding-bottom: 28rem;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .home2-content__left {
+    width: 300px;
+    margin-top: -24rem;
+  }
+
+  .home2-content__btn-wrap .home2-content__btn {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width:350px) {
+  .home2-content__left {
+    width: 280px;
+  }
+
+}
+
+
 
 /* ===================================================================
  * # core

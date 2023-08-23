@@ -4081,6 +4081,10 @@ html.no-csstransitions .home-content__main {
   color: #ffffff;
 }
 
+.welcome-text {
+  font-size: 100vmax;
+}
+
 .s-welcome p.lead {
   color: rgba(255, 255, 255, 0.6);
 }

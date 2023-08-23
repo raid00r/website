@@ -4082,7 +4082,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .welcome-text {
-  font-size: 100vmax;
+  font-size: 10vmax;
 }
 
 .s-welcome p.lead {
